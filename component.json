@@ -1,0 +1,19 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "description": "Страница корзины",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/cart",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "breadcrumb": "https://github.com/insales-components/breadcrumb",
+    "cart_similar": "https://github.com/insales-components/cart_similar",
+    "cart_item": "https://github.com/insales-components/cart_item",
+    "discounts": "https://github.com/insales-components/discounts",
+    "cellsio": "https://github.com/insales-components/cellsio"
+  }
+}
