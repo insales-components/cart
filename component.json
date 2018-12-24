@@ -10,6 +10,7 @@
     "liquid": true
   },
   "dependencies": {
+    "ui-buttons": "https://github.com/insales-components/ui-buttons",
     "breadcrumb": "https://github.com/insales-components/breadcrumb",
     "cart_similar": "https://github.com/insales-components/cart_similar",
     "cart_item": "https://github.com/insales-components/cart_item",
