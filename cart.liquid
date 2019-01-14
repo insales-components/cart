@@ -26,16 +26,19 @@
       </div>
 
         <div class="row flex-middle cart-footer">
-          <div class="cell-5">
+          <div class="cell-6">
             {% include "discounts" %}
           </div>
-          <div class="cell-7">
-            <div class="row cart-order flex-middle">
+          <div class="cell-6">
+            <div class="cart-totals text-right row flex-between">
               <div class="cart-total-capture">Итоговый заказ: </div>
               <div class="cart-total" data-cartman-total-price>
                 {{ cart.total_price | money }}
               </div>
-              <button type="submit"  class="cart-submit btn-secondary in-cart" data-cart-submit>оформить заказ</button>
+            </div>
+            <div class="cart-order text-right">
+              <button type="submit"  class="cart-submit btn-primary btn" data-cart-submit>оформить заказ</button>
+              <button type="button"  class="btn btn-secondary" data-quick-checkout>Купить в 1 клик</button>
             </div>
           </div>
 
